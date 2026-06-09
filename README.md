@@ -9,10 +9,9 @@
 
 ## Domain
 
-<!-- What topic or category of knowledge does your system cover?
-     Why is this knowledge valuable, and why is it hard to find through official channels?
-     Example: "Student reviews of CS professors at [university] — useful because official
-     course descriptions don't reflect teaching style, exam difficulty, or workload." -->
+## Domain
+
+This system covers student-generated reviews of Computer Science professors at the University of Florida, drawn from Rate My Professors and Reddit discussions. The knowledge captured — teaching effectiveness, exam difficulty, grading fairness, and lecture quality — is valuable because students use it to make high-stakes course registration decisions, yet it is impossible to find through official channels like the UF course catalog, which lists only course descriptions and never describes a professor's tendency to ramble in lecture, give unfair exams, or respond well to student feedback.
 
 ---
 
