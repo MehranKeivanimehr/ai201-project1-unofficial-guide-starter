@@ -1,0 +1,559 @@
+Source: Rate My Professors
+Professor: Fatemeh Tavassoli
+URL: https://www.ratemyprofessors.com/professor/2990070
+Department: Computer Science
+Date collected: 6/6/2026
+
+---REVIEWS START---
+
+Quality
+2.0
+Difficulty
+4.0
+COP3503C
+Apr 29th, 2026
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: B-
+Textbook: N/A
+her lectures are lowkey a waste of time, this class will test your ability to self study. get close to your TA, fill that cheat sheet up, and study WAAAAY in advance their study material is all over the place it takes a while to even understand where to start.
+
+Quality
+2.0
+Difficulty
+4.0
+COP3503C
+Apr 29th, 2026
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: B-
+Textbook: N/A
+her teaching is not the best, you're better off paying attention in your discussion and praying you have a good PM. the organization of the material you need to study sucks, and that cheat sheet better be full to the brim of examples. only 2 exams and it's graded by the computer, thankfully projects weigh more
+Test heavy
+
+Quality
+4.0
+Difficulty
+4.0
+COP3503C
+Apr 24th, 2026
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: A
+Textbook: N/A
+Don't bother going to the lectures, the TAs running your discussion section will do a much better job teaching you C++. Great course otherwise; even though I never managed to finish any of them I liked that project experience was baked into the course's design.
+Participation matters
+EXTRA CREDIT
+
+Quality
+4.0
+Difficulty
+3.0
+COP3503C
+Apr 24th, 2026
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+I enjoyed this class. Her lectures are often disorganized, but I believe she covered the basics of C++ effectively. Even without the lectures the labs and class work assignments tested your ability to code anyways. However, the projects are quite heavy - often taking dozens of hours - but it teaches practical uses of coding. should be an easy A/A-.
+EXTRA CREDIT
+Clear grading criteria
+Lots of homework
+
+Quality
+5.0
+Difficulty
+1.0
+COP3503C
+Apr 20th, 2026
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: Yes
+This class gives you what you put into it. I was never once concerned that I wouldn't make an A in this class. Every assignment in the class is graded on completion, which makes up 70 / 100 points of your grade. I learned all the material by completing the assignments, with a 90 average on the exams. Very easy class, with 4 points of extra credit.
+EXTRA CREDIT
+Clear grading criteria
+
+Quality
+1.0
+Difficulty
+1.0
+COP3503C
+Apr 20th, 2026
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: A
+Textbook: N/A
+Super nice person and caring, but her lectures were never helpful, the course had poor organization, and I taught everything to myself. The class itself is not that hard if you know how to teach yourself stuff, but otherwise, really poor experience. Only 30% exams tho so lock in on those and dont miss deadlines for assignments. A guaranteed.
+Caring
+Accessible outside class
+
+Quality
+1.0
+Difficulty
+4.0
+COP3503C
+Apr 11th, 2026
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: B-
+Textbook: Yes
+This professor is extremely caring and kind. However, she is not a good professor. She would rush through the slides and explain material very fast, and if u are new to coding in C++ like I was, it is a nightmare trying to understand and learn. Tbh i didn't understand really anything she taught until it was retaught in DSA. fear mongers about AI.
+Tough grader
+Lots of homework
+Caring
+
+Quality
+4.0
+Difficulty
+3.0
+COP3503C
+Dec 21st, 2025
+Would Take Again: Yes
+Grade: A-
+I passed. A couple of things to know if you're thinking about taking this course: you'll need to study on your own too. The course isn't very well organized. Make sure you attend the classes and pay attention to the important examples. If you do that, you should pass. overaly it was OK. Also, she's not a boring one appearance-wise
+Get ready to read
+Lecture heavy
+Test heavy
+
+Quality
+5.0
+Difficulty
+2.0
+COP3503C
+Dec 17th, 2025
+For Credit: Yes
+Would Take Again: Yes
+Grade: A
+Easy grading ! Heavy class
+EXTRA CREDIT
+Accessible outside class
+
+Quality
+3.0
+Difficulty
+2.0
+COP3503C
+Dec 12th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: A
+Textbook: N/A
+She just is very unorganized and the lectures are not sufficient at this level. Easy class if you disregard what is recommended and teach it all to yourself.
+
+Quality
+2.0
+Difficulty
+5.0
+Computer IconCOP3503C
+Nov 26th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: B
+Textbook: N/A
+Online Class: Yes
+I took this class online. Got behind in the beginning and never was able to catch back up. Tests are easy,just no time, students are allowed 3 cheat sheets but even then I've never gotten higher than a 70. If this is your first programming course good luck, because despite it saying no prior programming knowledge is needed, it seems like there is.
+Group projects
+Lots of homework
+Online Savvy
+
+Quality
+5.0
+Difficulty
+3.0
+COP3503C
+Nov 24th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A-
+Textbook: N/A
+the key for success is to Pay attention to the examples she says is important. Test were similar to those she got us before. Tbh I couldn't imagine I could get an A. Maybe i was lucky.
+EXTRA CREDIT
+Respected
+Accessible outside class
+
+Quality
+1.0
+Difficulty
+2.0
+COP3503C
+Nov 19th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: A+
+Textbook: N/A
+Many inconsistencies in the assignment details compared to the autograder, gradescope and GitHub were barely functional, the professor didn't do the lectures and led me to wonder what she contributes. Both the professor/TAs won't respond or respond after the due date has passed. I spoke with others in the class and they had the same experience.
+
+
+Quality
+5.0
+Difficulty
+1.0
+COP3503C
+Nov 17th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: N/A
+The class is very easy. Exams are very simple if you do the work. She tells you exactly what is on the exams. Labs and projects aren't hard, but they do take some time so don't procrastinate. She is VERY lenient in grading. Very easy class overall.
+
+Quality
+2.0
+Difficulty
+4.0
+COP3503C
+Nov 14th, 2025
+For Credit: Yes
+Attendance: Mandatory
+Grade: C
+Textbook: N/A
+Thick accent, so beware if you have a problem with that.
+Tough grader
+Test heavy
+
+Quality
+4.0
+Difficulty
+3.0
+COP3503C
+Nov 6th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: Not sure yet
+Textbook: N/A
+As a girl, I really like her attitude. But she needs to put herself on our shoes . We are just a beginner. Also You need to study on your own . I found her available out of the class too.
+Get ready to read
+Inspirational
+Caring
+
+Quality
+2.0
+Difficulty
+4.0
+COP3503C
+Oct 8th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: Not sure yet
+Textbook: N/A
+The quality of the lectures are not good and the class needs to be structured differently. Also, my TA absolutely did not care to help me out on anything and would also act very unprofessionally and use profane language in class when he didn't want to explain a concept. The midterms are very difficult and offer little to no partial credit.
+Clear grading criteria
+Lots of homework
+Lecture heavy
+
+Quality
+1.0
+Difficulty
+3.0
+COP3503C
+Oct 1st, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: Not sure yet
+Textbook: N/A
+Not a hard class in itself, but professor won't help you. Seems like she wouldn't even be able to get an A in her own class and lectures are constantly behind the assignments as if she uses some pre-made curriculum from another professor that she can't keep pace with. Leaves you doing labs using methods you'll learn a week after it's due.
+
+Quality
+5.0
+Difficulty
+3.0
+COP3503C
+Sep 5th, 2025
+For Credit: Yes
+Would Take Again: Yes
+Grade: A-
+Ma fav stylish prof :-) All good.
+Inspirational
+Respected
+
+Quality
+4.0
+Difficulty
+3.0
+COP3504C
+Aug 21st, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: A
+Textbook: N/A
+Her class can be a bit disorganized but she is very understanding about extensions and curving. Just talk to her and get help on the material.
+Test heavy
+Accessible outside class
+
+Quality
+5.0
+Difficulty
+3.0
+COP3503C
+Aug 16th, 2025
+For Credit: Yes
+Would Take Again: Yes
+Grade: B+
+She was good. But she needs to slow down. We are just beginners! I studied alot of class. she was accessible out of the class too
+EXTRA CREDIT
+Test heavy
+Graded by few things
+
+Quality
+2.0
+Difficulty
+5.0
+COP3504C
+Aug 14th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: B
+Textbook: Yes
+Test heavy class. She is a very knowledgeable, kind person; however, she does not teach well. Reads from the slides. Had to teach myself much of the content. We ran into many tech issues during exams, but she did curve them. Difficult exam content, and the grading system was somewhat picky. TA's were helpful. Recorded lectures.
+Get ready to read
+Lots of homework
+Test heavy
+
+Quality
+4.0
+Difficulty
+1.0
+COP3503C
+Aug 10th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: N/A
+The class itself is extremely easy, almost comically so. As long as you do all the work assigned, you'll pass. I almost never went to lecture in person, and I still learned everything with either the recorded lectures, help materials linked, or the textbook she provided/video supplements online (look at the yt she linked-its great) do not use AI.
+EXTRA CREDIT
+Clear grading criteria
+
+Quality
+1.0
+Difficulty
+5.0
+COP3503C
+Aug 9th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: A
+Textbook: N/A
+if you can, dont take. words down.
+Tough grader
+Hilarious
+
+Quality
+4.0
+Difficulty
+2.0
+COP3503C
+Aug 5th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A-
+A kind, strong, well- educated woman. Extra credits. Caring . We need more of these ladies as professor at university.
+EXTRA CREDIT
+Clear grading criteria
+Inspirational
+
+Quality
+4.0
+Difficulty
+3.0
+COP3503C
+Aug 3rd, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+While Ms. Tavassoli got a lot of hate during the time I had her, I think she is a wonderful professor. She was responsive to the class's issues and when we had problems during the exam, she gave a curve which bumped our exam grades up a lot. She also adapted her lecture style to fit our needs, something I haven't seen any prof do. Very nice lady.
+Participation matters
+Clear grading criteria
+Caring
+
+Quality
+1.0
+Difficulty
+5.0
+COP3503C
+Aug 1st, 2025
+For Credit: Yes
+Attendance: Mandatory
+Grade: A
+Textbook: Yes
+bad. learn little, big trouble
+Tough grader
+Hilarious
+Test heavy
+
+Quality
+4.0
+Difficulty
+4.0
+COP3503C
+Jul 15th, 2025
+For Credit: Yes
+Would Take Again: Yes
+Grade: A-
+She is nice. Even could be better
+Get ready to read
+EXTRA CREDIT
+Caring
+
+
+Quality
+3.0
+Difficulty
+4.0
+COP3503C
+Jul 15th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: B+
+Textbook: Yes
+She's a good teacher, but she only covers surface-level things. You'll be teaching 99% of it to yourself. C++ is difficult but doable. Make sure to start projects and labs earlier because they take quite a bit of time.
+Get ready to read
+
+Quality
+1.0
+Difficulty
+5.0
+COP3503C
+Jul 1st, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: A
+Textbook: Yes
+A in the end, but nightmare memory test too overly hard that I think she herself cant get 90%. check cheaters in a way to create horror among students. projects are good by nature, but in a course ddl like this its hard to actually learn from them. labs, quizes broke frequently and TAs cant help. bad course, unhelpful to career. stressful
+Tough grader
+Lots of homework
+Hilarious
+
+Quality
+4.0
+Difficulty
+1.0
+COP3503C
+May 12th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+Easy class
+EXTRA CREDIT
+Caring
+
+Quality
+4.0
+Difficulty
+1.0
+COP3503C
+May 9th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: N/A
+She was not bad at all, but people got low scores on an exam and rushed to give one-star reviews. Granted, the first exam was rough, but she recognized that gave everyone the chance to redo it for partial credit. Also, the class itself is pretty easy; if you do all the labs and projects, you will pass easily. One tip DON'T PROCRASTINATE START EARLY
+Caring
+
+Quality
+5.0
+Difficulty
+4.0
+COP3503C
+May 8th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: Yes
+I really enjoyed Dr Tavassoli, she is very caring and sweet. I thought lectures were pretty good too although a lot of people complained. It is a hard course but not impossible if you stay on track and put in effort. Start the projects and labs early. A lot of extra credit opportunities as well. I would definitely recommend!
+EXTRA CREDIT
+Lots of homework
+Caring
+
+Quality
+2.0
+Difficulty
+5.0
+COP3503C
+May 5th, 2025
+For Credit: Yes
+Grade: Drop/Withdrawal
+Textbook: Yes
+Guys, the 5 star reviews below are fake! Honestly, this class was really hard. Programming 1 alone does not prepare you well enough for it. She also only teaches surface level concepts that barely help with completing labs and projects.
+EXTRA CREDIT
+
+Quality
+1.0
+Difficulty
+5.0
+COP3503C
+May 4th, 2025
+For Credit: Yes
+Attendance: Mandatory
+Grade: B+
+Textbook: Yes
+One of the worst CISE teacher ever. Extremely bad lecturer and often drones on. I wish the Comp Sci department was better here
+
+Quality
+3.0
+Difficulty
+2.0
+COP3504C
+Apr 27th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: A
+Textbook: N/A
+gave a ton of extra credit. class is pretty fast paced and the C++ part comes pretty fast, its only python for I'd say about 1/3 of the semester. C++ can be difficult to understand if you've never used it before so be sure to do work actually understanding the language and how it works bc you use it in dsa too.
+
+
+Quality
+4.0
+Difficulty
+3.0
+COP3503C
+Apr 27th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: Not sure yet
+Textbook: Yes
+At first I did not like her, but I really did grow to like her overtime due to her showing how much she truly cares about students passing. She was willing to push back a couple of project deadlines due to the deadline overlapping with an exam for a different CS class. My advice, DO NOT PROCRASTINATE ON THE LABS/PROJECTS. They are time-consuming.
+EXTRA CREDIT
+Caring
+
+Quality
+5.0
+Difficulty
+2.0
+COP3504C
+Apr 26th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: Yes
+I feel so bad reading all these bad reviews. She's super lenient compared to other instructors in CISE, gave lots of extra credit that can basically boost you up a whole letter grade. Her lectures aren't the most engaging, and the auto-graded exams can be finicky, but exam questions stick to the materials that you should know. SHE'S NOT THAT BAD.
+EXTRA CREDIT
+
+Quality
+4.0
+Difficulty
+3.0
+COP3503C
+Apr 25th, 2025
+For Credit: Yes
+Would Take Again: Yes
+Grade: A-
+You should self study. The class time is not enough. I didn't attend all labs.
+EXTRA CREDIT

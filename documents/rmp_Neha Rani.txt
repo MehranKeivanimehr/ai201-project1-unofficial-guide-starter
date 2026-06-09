@@ -1,0 +1,341 @@
+Source: Rate My Professors
+Professor: Neha Rani
+URL: https://www.ratemyprofessors.com/professor/2982983
+Department: Computer Science
+Date collected: 6/6/2026
+
+---REVIEWS START---
+
+Quality
+2.0
+Difficulty
+1.0
+CEN3031
+May 3rd, 2026
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: A-
+Textbook: N/A
+She has busywork assignments similar to how other teachers have iClicker for lectures. You can only make up one if you miss. Discussion periods require in-person attendance; you can only miss twice, I think. She has extra credit available. No exams or quizzes. Two mini independent projects and one semester-long group project.
+Participation matters
+EXTRA CREDIT
+Group projects
+
+Quality
+2.0
+Difficulty
+3.0
+CEN3031
+Apr 22nd, 2026
+Attendance: Not Mandatory
+Grade: A
+Textbook: N/A
+This class is one of the great failings of UF's CISE department. It is extremely disorganized and barely teaches you anything. You will have to teach yourself pretty much any actual practical knowledge needed for this course while Prof. Rani drones on about scrum.
+
+Quality
+1.0
+Difficulty
+3.0
+CEN3031
+Apr 8th, 2026
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: Not sure yet
+Textbook: Yes
+lectures are really boring, busy work and group project is basically all you do. get ready to self teach web dev technologies and hope for a good group
+Group projects
+Lots of homework
+
+Quality
+2.0
+Difficulty
+1.0
+CEN3031
+Apr 3rd, 2026
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+really easy class, i didn't go to class at all after the first week. attendance not required and there is no point to go to class because its all group projects outside of class with no exams so no content to learn. didn't really learn anything in this class from the prof, just learning stuff when doing projects... have a competent group
+Group projects
+
+Quality
+3.0
+Difficulty
+1.0
+CEN3031
+Dec 12th, 2025
+For Credit: Yes
+Would Take Again: Yes
+Grade: A
+This is a nothing burger class. Busy work and semester project.
+Group projects
+
+Quality
+5.0
+Difficulty
+1.0
+CEN3031
+Dec 12th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: N/A
+Nothing wrong with HER, just the class. She's super nice, just the class is all busy work in the first half, then dealing with horrible teammates in the second half. Impossible not to get an A. But it's just an INTRO swe course, and she taught the relevant workforce swe content. Idk why people are so dramatic about it. Pick good group members.
+Group projects
+
+Quality
+5.0
+Difficulty
+3.0
+CEN3031
+Dec 11th, 2025
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+Lectures are mandatory for in-class activities. The course consists of some assignments and a semester group project, with no exams or quizzes. As long as you do the work, the course should be an easy A. Not a very useful class ultimately, but it wasn't bad.
+Group projects
+Lots of homework
+
+Quality
+1.0
+Difficulty
+3.0
+CEN3031
+Nov 20th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: A
+Textbook: N/A
+Lectures are useless when it comes to learning anything useful for software engineering. Every week there is an in-class assignment that is a complete waste of time.
+Group projects
+
+Quality
+1.0
+Difficulty
+1.0
+CEN3031
+Aug 25th, 2025
+For Credit: Yes
+Attendance: Mandatory
+Grade: A
+Textbook: N/A
+I took her for summer. The class is essentially just a group project/participation award. Her lectures don't matter for the class and have no real substance. The difficulty depends on how ambitious your group is, you could get an A with very few workhours if your group wants to do the bare minimum. Attendance was once per week and could be virtual.
+
+Quality
+2.0
+Difficulty
+2.0
+CEN3031
+Jun 18th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: A
+Textbook: N/A
+This class felt very fake. The prof pretended to lecture, the TAs pretended to grade, and the students pretended to learn. You have to make a website without learning how or being assigned prereqs. It was an easy A if you do the work, but the weekly assignments are repetative & unnecessary. Wastes potential to simulate a real work enviroment.
+Group projects
+Lots of homework
+
+Quality
+2.0
+Difficulty
+4.0
+CEN3031
+May 6th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: Rather not say
+Textbook: N/A
+The class itself wasn't terrible, more of busy work. However, beware of some of the TAs. Mine put in grades at the end and then gave us one day to dispute them and then *ghosted me* when I emailed them 🤦‍♀️
+Tough grader
+Group projects
+
+Quality
+1.0
+Difficulty
+1.0
+CEN3031
+May 3rd, 2025
+For Credit: Yes
+Attendance: Mandatory
+Grade: C+
+Textbook: N/A
+Professor couldn't care less about class so most people breeze by with an A, but pray to god you don't have an issue. Got a zero on a couple of key assignments and despite all the evidence in the world she refused to change it.
+Tough grader
+Group projects
+Graded by few things
+
+Quality
+2.0
+Difficulty
+2.0
+CEN3031
+Apr 21st, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+Basically just a semester-long group project, but requirements are vague and assignments are disorganized. Lectures are kind of pointless but there are in-class assignments you have to do on Fridays, but you can join on zoom.
+
+Quality
+1.0
+Difficulty
+1.0
+CEN3031
+Apr 16th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: A
+Textbook: N/A
+The lectures didn't really add much, and most of what you learn comes from whatever tech you end up using for the semester project
+Group projects
+
+Quality
+1.0
+Difficulty
+3.0
+CEN3031
+Apr 1st, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: A+
+Textbook: N/A
+Her lectures were completely a waste of time and she looked like she didn't want to be teaching. We were not prepared by her lectures or the TA's discussion to create the main group project. All the documentation assignments took away from our time teaching ourselves full-stack dev and it seemed like busy work. This class was so frustrating.
+Group projects
+Lots of homework
+
+Quality
+1.0
+Difficulty
+2.0
+CEN3031
+Mar 14th, 2025
+For Credit: Yes
+Attendance: Mandatory
+Grade: A
+Textbook: N/A
+Essentially a semester-long group project with hours and hours of useless busywork sprinkled in. During lectures, all she does is read off slides with near-zero emotion in her voice. The only reason to attend class is the required, completely unrelated in-class assignment every week. Easy A, but the biggest waste of time I've ever been put through.
+Get ready to read
+Group projects
+Lots of homework
+
+Quality
+1.0
+Difficulty
+1.0
+CEN3031
+Mar 14th, 2025
+For Credit: Yes
+Attendance: Mandatory
+Grade: A+
+Textbook: Yes
+This class is full of pointless busy work—weekly activities with long readings and lectures where she just reads off the slides. I was excited for Intro to Software Engineering, but Rani made it dull and unhelpful. The only good part is the group project, but even that comes with weeks where we have 3-4 useless assignments due.
+Get ready to read
+Group projects
+Lots of homework
+
+Quality
+3.0
+Difficulty
+1.0
+CEN3031
+Dec 9th, 2024
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: Yes
+Average professor and the semester-long project was fun. Just make sure to reach out to your teammates and actually interact with them and you're guaranteed an A.
+Participation matters
+Group projects
+Clear grading criteria
+
+Quality
+3.0
+Difficulty
+1.0
+CEN4721
+Nov 5th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: N/A
+class is easy but she is pretty disorganized and not clear with grading guidelines or deadlines. her lectures can be interesting sometimes if you are genuinely interested in HCI but other times very redundant. Easy A if you put in the work but be prepared for last minute assignment changes and almost the whole class is group work based
+Group projects
+
+Quality
+3.0
+Difficulty
+1.0
+CEN3031
+Sep 22nd, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+Honestly I've taken CEN3031 and am now taking CEN4721. I think classes she teaches are just busy work with weekly assignments and her lectures aren't very necessary to pass the class or assignments. Easy GPA boost.
+Clear grading criteria
+Lots of homework
+Caring
+
+Quality
+5.0
+Difficulty
+1.0
+CEN3031
+May 27th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+Maybe 10 hours of work total for the entire semester. Easiest A of my life. I don't think a single person in the class did not get an A.
+Group projects
+
+Quality
+1.0
+Difficulty
+2.0
+CEN3031
+Apr 30th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: A+
+Textbook: Yes
+Consider this class the easiest A ever unless you genuinely want to learn software engineering practices. This was her first time teaching this class and it absolutely shows in her lectures. Consistently contradicts her requirements, communication with everyone is nonexistent. Group project is managable, but dont expect much from this class.
+EXTRA CREDIT
+Group projects
+
+Quality
+2.0
+Difficulty
+2.0
+CEN3031
+Apr 26th, 2024
+For Credit: Yes
+Attendance: Mandatory
+Grade: A
+Textbook: Yes
+I believe this was her first class she ever lectured. She really struggled to captivate the class's attention during lectures, almost no one attended beyond the first couple weeks. The structure of assignments was also a mess. Hopefully she'll improve after a few semesters of teaching
+
+Quality
+4.0
+Difficulty
+2.0
+CEN3031
+Mar 28th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+Lectures aren't mandatory, and probably unnecessary. There are Friday in-class activities you must turn in during class time, but you can be on the Zoom. Also discussions are mandatory. The class is basically just working on a group project the whole time. I feel the criteria is not clear many times, but the grading is very lenient anyway.
+

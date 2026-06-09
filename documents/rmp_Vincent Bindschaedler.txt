@@ -1,0 +1,265 @@
+Source: Rate My Professors
+Professor: Vincent Bindschaedler
+URL: https://www.ratemyprofessors.com/professor/2680322
+Department: Computer Science
+Date collected: 6/7/2026
+
+---REVIEWS START---
+
+Quality
+3.0
+Difficulty
+3.0
+CAI6108
+Jun 2nd, 2026
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: N/A
+very nice/caring guy. structured/recorded lectures. 5 hw, midterm/final are REALLY HARD -- not theoretical but practical problems- mostly free response questions.
+Lots of homework
+Caring
+Accessible outside class
+
+
+
+Quality
+5.0
+Difficulty
+5.0
+CIS4930
+May 8th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A-
+Textbook: N/A
+This is for CAI4104 MLE. Great class, but for me it was as much work and as hard as OS. Exams are intense on memorization. Lectures are high quality and you will learn a lot. The homework teaches you well but they are HARD. Caveat, didn't know Python so I lost time debugging silly mistakes. If you want a huge jumpstart into ML, take this course.
+Amazing lectures
+Lots of homework
+Accessible outside class
+
+Quality
+5.0
+Difficulty
+4.0
+CIS4930
+May 5th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+This review is for CAI4104-ML Engineering. Very knowledgeable professor, asks great questions during lectures and clearly understands the material well. Class had 5 HWs, some were easy and some had to spend 12+ hours on. Frustrating since feedback on the last 3 came near finals week. Intense exams, take notes during lectures and use those to study.
+Participation matters
+Lots of homework
+Lecture heavy
+
+Quality
+2.0
+Difficulty
+5.0
+CIS6930
+Jan 8th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: B-
+Textbook: N/A
+really hard to keep up with lectures unless you study really hard isn't going to let you go easy with exams
+Tough grader
+Lots of homework
+Lecture heavy
+
+Quality
+1.0
+Difficulty
+5.0
+CIS6930
+Jan 8th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: B-
+Textbook: N/A
+exams are tough not easy to get through without studying day and night
+Tough grader
+EXTRA CREDIT
+Caring
+
+Quality
+1.0
+Difficulty
+5.0
+CIS4930
+Jan 8th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: B
+Textbook: Yes
+hard to follow up if you arent attentive in class, not a easy grader teaches well tho
+Tough grader
+
+Quality
+5.0
+Difficulty
+4.0
+Computer IconCIS4930
+Apr 28th, 2022
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: B-
+Textbook: N/A
+Online Class: Yes
+He was knowledgeable, helpful, and explained the topics well. He went over numerous practice problems and exercises, and really did his best to help students learn. Everything about this class was reasonable. The tests were tough but the projects were realistic.
+Amazing lectures
+Respected
+Graded by few things
+
+Quality
+5.0
+Difficulty
+2.0
+CIS6930
+Apr 27th, 2022
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+He gives nice lectures and easy-to-follow projects.
+Get ready to read
+Amazing lectures
+Respected
+
+Quality
+5.0
+Difficulty
+3.0
+Computer IconCIS4930
+Apr 25th, 2022
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A-
+Textbook: N/A
+Online Class: Yes
+Amazing professor. I learned a lot in his class. His instructions were clear even though some assignments were rough. He is very caring about his students and will help anyone in need. Def reccomend.
+Amazing lectures
+Clear grading criteria
+Respected
+
+Quality
+5.0
+Difficulty
+5.0
+CIS6930
+Apr 24th, 2022
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+One of the most organized professors. The only issue was delayed feedback on my assignments. It is almost end of semester and I have not received grades for 4/9 submissions (That is on TAs mostly though, not the professor). Course is easy and teaches you a lot
+Participation matters
+Gives good feedback
+Inspirational
+
+Quality
+5.0
+Difficulty
+3.0
+CIS4930
+Apr 20th, 2022
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+One of the most organized professors in the department. Informative class with very useful lectures and coding assignments. Just the right amount of difficulty, too. Highly recommended if you're at all interested in ML.
+
+Quality
+5.0
+Difficulty
+3.0
+CIS4930
+Apr 16th, 2022
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+Dr. Bindschaedler does a very good job at teaching applied ML without making it a ton of work. He covers higher level concepts on a lower level for students and doesn't go into any complex math. For the course description, "Applied" ML, he does a great job since it teaches mostly how to use and apply SK-learn and Tensorflow. Overall great course.
+Amazing lectures
+Graded by few things
+
+Quality
+5.0
+Difficulty
+3.0
+CIS4930
+Mar 22nd, 2022
+For Credit: Yes
+Would Take Again: Yes
+Amazing professor, very good at teaching. Breaks things down into chunks, very clean slides, stops to ask questions and make you think. Very good class for anyone remotely interested in ML.
+
+Quality
+5.0
+Difficulty
+4.0
+CIS6930
+Jan 6th, 2022
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: No
+Getting A is easy if you put in the work, Trustworthy ML is not an easy course but professor teaches really well. Professor solves the silliest of your doubts. Beware of the final exam it was a little tough.
+Gives good feedback
+Participation matters
+Amazing lectures
+
+Quality
+5.0
+Difficulty
+3.0
+CIS4930
+May 12th, 2021
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Textbook: No
+Applied ML. Excellent professor, definitely one of the best I've had at UF; probably my favorite class I've taken so far. If you're interested in machine learning at all, definitely take it with him. He's a natural at teaching/lecturing and conveying concepts clearly. Exams were just the right difficulty. Learned a lot and all of it was practical.
+Accessible outside class
+Amazing lectures
+Caring
+
+Quality
+5.0
+Difficulty
+3.0
+Computer IconCIS4930
+Apr 25th, 2021
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Textbook: No
+Online Class: Yes
+Applied ML. His lectures are very engaging and interesting. He stops to ask questions often, both about the material and if students need help. The homework and exams weren't hard at all but I still learned a lot. Perfect introduction to machine learning.
+Inspirational
+Amazing lectures
+
+Quality
+4.0
+Difficulty
+2.0
+CIS4930
+Mar 26th, 2021
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: No
+Great professor, cares about students. Assignments take a couple of hours to do but if you watch his Exercise lecture, you should have an easy time. Tests are incredibly easy, go through his powerpoints and you should be good.
+EXTRA CREDIT
+

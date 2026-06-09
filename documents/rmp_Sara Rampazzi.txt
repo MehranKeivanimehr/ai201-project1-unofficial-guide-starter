@@ -1,0 +1,110 @@
+Source: Rate My Professors
+Professor: Sara Rampazzi
+URL: https://www.ratemyprofessors.com/professor/2781186
+Department: Computer Science
+Date collected: 6/6/2026
+
+---REVIEWS START---
+
+Quality
+1.0
+Difficulty
+5.0
+CDA4324C
+Dec 15th, 2025
+For Credit: Yes
+Attendance: Mandatory
+Grade: A
+Textbook: N/A
+Sad course with difficulty but no technical rigor. The ringleader of the circus is her power-tripping TA who abuses subjective grading by applying her worst possible (borderline falsified) interpretations. TA is also incompetent, accidentally docking several students' individual projects after mixing up their feedback. Don't take. Trust me, please.
+Tough grader
+Group projects
+Graded by few things
+
+Quality
+2.0
+Difficulty
+3.0
+CIS5370
+Aug 28th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: Yes
+I did not like this professor. Her instructional ability is okay, which is why she got a 2, but I would prefer not to ever take a course with her if possible. She is passionate about the course, but I didn't love the group project and the mostly theoretical course. Also, doesn't know how to administer an exam so students don't cheat.
+Group projects
+Graded by few things
+
+Quality
+1.0
+Difficulty
+5.0
+CIS4930
+May 14th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: B-
+Textbook: Yes
+Professor assigns unrealistic PhD projects with no resources, expecting completion in 3 months and it is 40% weightage, unclear grading. "Bonus" points added to total score, not as bonus. Frustrating experience, top it off with strong accent.
+Tough grader
+Group projects
+Graded by few things
+
+Quality
+1.0
+Difficulty
+4.0
+CIS4360
+May 4th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: B
+Review-CIS5370 (Computer Information Security) All theory, minimal practical work except project. Choose project carefully; not always related to CS. Harsh Grading, small mistakes cost a lot. Projects can be overwhelming. Doesn't recognize your efforts; Results matter more than actual effort. Extra credit-attendance. Read slides, quizzes for exams
+Tough grader
+EXTRA CREDIT
+Group projects
+
+Quality
+4.0
+Difficulty
+1.0
+CIS4930
+Nov 28th, 2023
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+Prof has tons of cool research. She very clearly is passionate about the subject and can explain things well, but her speaking voice is very monotone, which sometimes makes things dull. Cool class tho The grade is a few quizzes + 1 semester-long group project. Luckily, they were all very easy or graded leniently. Much easier than her other class
+Group projects
+Respected
+
+Quality
+1.0
+Difficulty
+4.0
+CIS4360
+Nov 20th, 2023
+For Credit: Yes
+Attendance: Mandatory
+Textbook: N/A
+boring lectures and tough grader
+Tough grader
+
+Quality
+5.0
+Difficulty
+3.0
+CIS4360
+Apr 27th, 2022
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+Something you start to loose with these 4000 level CISE courses are professors who actually explain things and instead fly through 50+ slides in a single lecture. Not with Rampazzi, she always took the time to explain things thoroughly. You can tell she cares about her students' success and always left feedback on mistakes in assignments.
+Amazing lectures
+Caring
+Graded by few things
+
