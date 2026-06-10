@@ -13,6 +13,7 @@ from groq import Groq
 from sentence_transformers import SentenceTransformer
 import chromadb
 import gradio as gr
+from hybrid_search import HybridSearcher
 
 # Load API key
 load_dotenv()
@@ -38,9 +39,15 @@ _collection = _chroma_client.get_or_create_collection(
 )
 print(f"Collection '{COLLECTION_NAME}' has {_collection.count()} chunks.")
 
+# Initialize hybrid searcher
+_hybrid_searcher = HybridSearcher("chunks.json", _collection)
 
-def retrieve_context(query: str, top_k: int = TOP_K):
+
+def retrieve_context(query: str, top_k: int = TOP_K, use_hybrid: bool = False):
     """Retrieve top-k chunks for a query."""
+    if use_hybrid:
+        return _hybrid_searcher.hybrid_search(query, _embed_model, top_k=top_k)
+
     query_embedding = _embed_model.encode([query]).tolist()
     results = _collection.query(
         query_embeddings=query_embedding,
@@ -107,9 +114,9 @@ def generate_answer(query: str, chunks: list) -> str:
 # ---------------------------------------------------------------------------
 # End-to-end
 # ---------------------------------------------------------------------------
-def ask(question: str) -> dict:
+def ask(question: str, use_hybrid: bool = False) -> dict:
     """Full pipeline: retrieve -> generate -> return answer + sources."""
-    chunks = retrieve_context(question)
+    chunks = retrieve_context(question, use_hybrid=use_hybrid)
     answer = generate_answer(question, chunks)
     sources = [c["source"] for c in chunks]
     return {"answer": answer, "sources": sources}
@@ -118,10 +125,10 @@ def ask(question: str) -> dict:
 # ---------------------------------------------------------------------------
 # Gradio interface
 # ---------------------------------------------------------------------------
-def handle_query(question: str):
+def handle_query(question: str, use_hybrid: bool = False):
     if not question or not question.strip():
         return "Please enter a question.", ""
-    result = ask(question)
+    result = ask(question, use_hybrid=use_hybrid)
     sources_text = "\n".join(f"• {s}" for s in result["sources"])
     return result["answer"], sources_text
 
@@ -137,17 +144,20 @@ with gr.Blocks(title="The Unofficial Guide — UF CS Professors") as demo:
             lines=2
         )
 
+    with gr.Row():
+        hybrid_toggle = gr.Checkbox(label="Use Hybrid Search (Semantic + BM25)", value=False)
+
     btn = gr.Button("Ask", variant="primary")
 
     with gr.Row():
         answer_out = gr.Textbox(label="Answer", lines=10)
         sources_out = gr.Textbox(label="Retrieved from", lines=10)
 
-    btn.click(handle_query, inputs=inp, outputs=[answer_out, sources_out])
-    inp.submit(handle_query, inputs=inp, outputs=[answer_out, sources_out])
+    btn.click(handle_query, inputs=[inp, hybrid_toggle], outputs=[answer_out, sources_out])
+    inp.submit(handle_query, inputs=[inp, hybrid_toggle], outputs=[answer_out, sources_out])
 
     gr.Markdown("---")
-    gr.Markdown("**Tip:** Try asking about teaching style, exam difficulty, or grading fairness. If the documents don't cover it, the system will say so.")
+    gr.Markdown("**Tip:** Try asking about teaching style, exam difficulty, or grading fairness. If the documents don't cover it, the system will say so. Enable Hybrid Search to combine semantic similarity with keyword matching.")
 
 
 # ---------------------------------------------------------------------------
@@ -159,20 +169,23 @@ def test_queries():
         "What do students say about Peter Dobbins's teaching style?",
         "What do Reddit users say about Christina Boucher?",
         "What do students say about Tamer Kahveci's lectures?",
+        "How is Prabhat Mishra described in terms of personality and grading?",
+        "What course do students say requires self-teaching with Peter Dobbins?",
         "What is the best pizza place in Gainesville?"
     ]
 
-    print("\n" + "=" * 70)
-    print("END-TO-END GROUNDED GENERATION TESTS")
-    print("=" * 70)
+    for mode, use_hybrid in [("SEMANTIC ONLY", False), ("HYBRID", True)]:
+        print("\n" + "=" * 70)
+        print(f"END-TO-END TESTS — {mode}")
+        print("=" * 70)
 
-    for q in test_cases:
-        print(f"\n🔍 QUESTION: {q}")
-        print("-" * 70)
-        result = ask(q)
-        print(f"📝 ANSWER:\n{result['answer']}")
-        print(f"\n📄 SOURCES: {', '.join(result['sources'])}")
-        print()
+        for q in test_cases:
+            print(f"\n🔍 QUESTION: {q}")
+            print("-" * 70)
+            result = ask(q, use_hybrid=use_hybrid)
+            print(f"📝 ANSWER:\n{result['answer']}")
+            print(f"\n📄 SOURCES: {', '.join(result['sources'])}")
+            print()
 
 
 if __name__ == "__main__":

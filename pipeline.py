@@ -141,15 +141,12 @@ def chunk_text(text, chunk_size=600, overlap=150):
     return chunks
 
 
-def main():
-    # 1. Load
-    documents = load_documents("documents")
-
-    # 2. Clean & Chunk
+def build_chunks(documents, chunk_size=600, overlap=150):
+    """Clean and chunk all documents."""
     all_chunks = []
     for doc in documents:
         cleaned = clean_document(doc["raw_text"], doc["filename"])
-        chunks = chunk_text(cleaned, chunk_size=600, overlap=150)
+        chunks = chunk_text(cleaned, chunk_size=chunk_size, overlap=overlap)
         for i, chunk in enumerate(chunks):
             all_chunks.append({
                 "filename": doc["filename"],
@@ -157,15 +154,17 @@ def main():
                 "text": chunk
             })
         print(f"  {doc['filename']}: {len(chunks)} chunks")
+    return all_chunks
 
+
+def inspect_chunks(all_chunks):
+    """Print sample chunks and overlap verification."""
     print(f"\nTotal chunks across all documents: {len(all_chunks)}")
 
-    # 3. Print 5 representative chunks for inspection
     print("\n" + "=" * 60)
     print("5 REPRESENTATIVE CHUNKS FOR INSPECTION")
     print("=" * 60)
 
-    # Pick chunks from different files and positions for variety
     sample_indices = [
         len(all_chunks) // 10,
         len(all_chunks) // 4,
@@ -181,14 +180,12 @@ def main():
             print(chunk["text"][:500] + ("..." if len(chunk["text"]) > 500 else ""))
             print(f"[Length: {len(chunk['text'])} characters]")
 
-    # 4. Verify overlap between consecutive chunks
     print("\n" + "=" * 60)
     print("OVERLAP VERIFICATION")
     print("=" * 60)
     if len(all_chunks) >= 2:
         c1 = all_chunks[0]["text"]
         c2 = all_chunks[1]["text"]
-        # Find the longest common suffix/prefix
         max_overlap = 0
         for i in range(1, min(len(c1), len(c2), 200)):
             if c1[-i:] == c2[:i]:
@@ -196,11 +193,28 @@ def main():
         print(f"Overlap between chunk 0 and chunk 1: ~{max_overlap} characters")
         print(f"Expected overlap: ~150 characters")
 
-    # 5. Save chunks to JSON for Milestone 4
-    output_path = "chunks.json"
-    with open(output_path, "w", encoding="utf-8") as f:
+
+def main():
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--chunk-size", type=int, default=600)
+    parser.add_argument("--overlap", type=int, default=150)
+    parser.add_argument("--output", type=str, default="chunks.json")
+    args = parser.parse_args()
+
+    # 1. Load
+    documents = load_documents("documents")
+
+    # 2. Clean & Chunk
+    all_chunks = build_chunks(documents, chunk_size=args.chunk_size, overlap=args.overlap)
+
+    # 3. Inspect
+    inspect_chunks(all_chunks)
+
+    # 4. Save
+    with open(args.output, "w", encoding="utf-8") as f:
         json.dump(all_chunks, f, indent=2, ensure_ascii=False)
-    print(f"\nSaved all chunks to '{output_path}'")
+    print(f"\nSaved all chunks to '{args.output}'")
 
 
 if __name__ == "__main__":
