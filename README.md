@@ -45,6 +45,27 @@ Before chunking, each document was cleaned aggressively. For Rate My Professors 
 
 ---
 
+## Sample Chunks
+
+Below are 5 representative chunks after cleaning and splitting. Each shows the source document, chunk index, and length.
+
+**Chunk 1** — `reddit_best_cs.txt` (chunk 0, 590 chars)
+> Hello everyone. Currently I am a high school senior thinking of majoring in computer science. How is the computer science department at UF? I have seen previous posts on this subject and was wondering if the general past consensus still stands. Legit on the rise. Just graduated from the program this semester and from what I can tell, the department has made some slam dunk hires. Seems like Blanchard(new programming 1 and OS professor) really has a vision for the program. I don't think Blanchard is the best professor ever. I mean, he's not bad but I don't agree with some of his teaching...
+
+**Chunk 2** — `reddit_best_professors.txt` (chunk 6, 596 chars)
+> ...es are when lectures are basically useless when it comes to doing labs/projects). She's so kind! Jeremiah Blanchard in COP3504c! I also liked Missy Shabazz's lectures for calc 3. Professor Norman Lewis who i've taken for Data Literacy for Communicators and Sports Data Journalism and he's amazing! Norm the goat fr. Dr. Brooks for dynamics (but I'm sure for any class he teaches). Had him for Numerical, he was great there too. Unpopular opinion but Dr. Schwartz taught me the most by far...
+
+**Chunk 3** — `rmp_Neha Rani.txt` (chunk 11, 599 chars)
+> ...sometimes if you are genuinely interested in HCI but other times very redundant. Easy A if you put in the work but be prepared for last minute assignment changes and almost the whole class is group work based. Honestly I've taken CEN3031 and am now taking CEN4721. I think classes she teaches are just busy work with weekly assignments and her lectures aren't very necessary to pass the class or assignments. Easy GPA boost. Maybe 10 hours of work total for the entire semester. Easiest A of my life...
+
+**Chunk 4** — `rmp_Prabhat Mishra.txt` (chunk 18, 590 chars)
+> ...ou will get an A. He pushes his students to think through his questions in lecture and uses funny examples. Lays out schedule in first class and follows it. Encourages critical thinking and use of office hours. Hardest and best class I've had to date. Many of my friends aren't a huge fan, but I'm alright with him. He explains things well, but you really need to focus during class to learn, and you might get lost regardless just by the nature of the course material. He can come across as condescending and give the impression that his class is above all at times...
+
+**Chunk 5** — `rmp_Peter Dobbins.txt` (chunk 12, ~596 chars)
+> ...funny/interesting person, is on top of Canvas/due dates, and fair grading. To on track, you need to read the textbook for 3-4 hours a week, and beyond that, tests are not that hard—and neither is the material (Discrete). Seems to enjoy teaching, but struggles to get many of the concepts across to students. Dobbins uses a flipped classroom, so be prepared to read beforehand if you want to understand lectures (most students didn't go to lectures and only used the online textbook/youtube)...
+
+---
+
 ## Embedding Model
 
 **Model used:** `all-MiniLM-L6-v2` via `sentence-transformers`
@@ -52,6 +73,36 @@ Before chunking, each document was cleaned aggressively. For Rate My Professors 
 I chose this model because it is small (22MB), runs entirely locally with no API key or rate limits, and produces 384-dimensional embeddings that are well-suited for short text like professor reviews. For a corpus of only 161 chunks, it embeds in under 2 seconds and queries are instant. It also has strong performance on semantic similarity benchmarks relative to its size, making it a cost-effective default for student projects.
 
 **Production tradeoff reflection:** If deploying for real users with unlimited budget, I would consider `text-embedding-3-large` (OpenAI) or `all-mpnet-base-v2` for better semantic accuracy on nuanced opinion text, and potentially a domain-specific model fine-tuned on academic review data. Tradeoffs to weigh: (1) Latency — `all-MiniLM-L6-v2` is fast and runs locally, while API-hosted models add network latency; (2) Context length — some models support longer sequences, which matters if we later switch to larger chunks; (3) Domain accuracy — general-purpose embeddings may miss academic slang ("yaps," "self-teach," "flipped classroom") that a domain-tuned model would capture better.
+
+---
+
+## Retrieval Test Results
+
+Below are the top-3 retrieved chunks for 3 evaluation queries, with cosine distance scores and relevance explanations.
+
+**Query 1:** *What do students say about Peter Dobbins's teaching style?*
+
+1. `[0.4131] rmp_Peter Dobbins.txt` — "funny/interesting person, is on top of Canvas/due dates, and fair grading. To on track, you need to read the textbook for 3-4 hours a week..."
+2. `[0.4747] rmp_Peter Dobbins.txt` — "...this class is not bad. Long textbook readings with homework assigned but given a week to complete. Lectures aren't very useful so definitely read the textbook..."
+3. `[0.4985] rmp_Prabhat Mishra.txt` — "...in class discussions, and read the book. I learned a lot from this course and feel very confident during interviews. He is a great professor..."
+
+*Relevance explanation:* Results 1 and 2 are highly relevant — both are from Dobbins's own RMP page and directly describe his teaching style (flipped classroom, lectures not useful, fair grading). Result 3 is from Mishra's page and is slightly off-topic (it mentions being a "great professor" generically), but the top 2 carry enough signal to produce an accurate answer.
+
+**Query 2:** *What do Reddit users say about Christina Boucher?*
+
+1. `[0.5375] reddit_best_cs.txt` — "...na Boucher Is she one of the teachers that stirred up controversy? Are you referring to a particular controversy or are you asking if she stirred up any controversies?..."
+2. `[0.6193] rmp_Sara Rampazzi.txt` — "...ons of cool research. She very clearly is passionate about the subject and can explain things well, but her speaking voice is very monotone..."
+3. `[0.6504] rmp_Christina Boucher.txt` — "...Instead of encouraging learning, she shuts students down and penalizes teamwork. She rarely acknowledges correct answers and has a cold, dismissive attitude..."
+
+*Relevance explanation:* Result 1 is exactly what we need — the Reddit thread containing the "Remember, no Christina Boucher" warning. Result 3 is also highly relevant, from Boucher's own RMP page, describing the same negative sentiment (cold, dismissive). Result 2 is about Sara Rampazzi and is irrelevant; it only appears because it mentions "lectures" and "she" generically.
+
+**Query 3:** *What do students say about Tamer Kahveci's lectures?*
+
+1. `[0.3704] rmp_Tamer Kahveci.txt` — "...teaches it, take it because he is a gem of a professor. Dr. Kahveci himself was a big part of making Databases less painful. The homeworks and exams given were very reasonable and the lectures and textbook translated directly to what we were being tested on..."
+2. `[0.4796] reddit_best_professors.txt` — "...es are when lectures are basically useless when it comes to doing labs/projects). She's so kind! Jeremiah Blanchard in COP3504c!..."
+3. `[0.4813] rmp_Tamer Kahveci.txt` — "He's an excellent lecturer and you'll learn a great deal. I wouldn't consider the material outdated as it focuses on foundational algorithms and problems that anyone interested in bioinformatics should understand..."
+
+*Relevance explanation:* Results 1 and 3 are perfectly relevant — both are from Kahveci's RMP page and praise his lectures explicitly ("excellent lecturer," "lectures translated directly to what we were being tested on"). Result 2 is a Reddit thread about favorite professors in general; it mentions "lectures" but has nothing to do with Kahveci, so it's a minor retrieval noise.
 
 ---
 
@@ -76,6 +127,40 @@ This prompt is passed as the `system` role message to Groq's `llama-3.3-70b-vers
 **How source attribution is surfaced in the response:**
 
 Source attribution happens at two levels. First, the system prompt instructs the LLM to cite source filenames inside its answer (e.g., "source: rmp_Peter Dobbins.txt, chunk 12"). Second, the Gradio UI displays a separate "Retrieved from" panel that lists all source files that were retrieved for the query, regardless of whether the LLM used them in its final answer. This dual attribution means the user can both see which specific chunk supported a claim and verify the full set of documents that were consulted.
+
+---
+
+## Query Interface and Example Responses
+
+**Interface description:** The system runs as a Gradio web application at `http://localhost:7860`. The interface has three main elements:
+- **Input:** A text box labeled "Your question" where the user types their query.
+- **Answer output:** A text box labeled "Answer" that displays the LLM's grounded response with inline source citations.
+- **Sources output:** A text box labeled "Retrieved from" that lists all source files consulted for the query.
+- **Hybrid toggle:** A checkbox to enable/disable hybrid search (semantic + BM25).
+
+**Sample interaction transcript:**
+
+> **User:** What do students say about Peter Dobbins's teaching style?
+>
+> **System Answer:** Students say that Peter Dobbins uses a flipped classroom, so they need to read beforehand to understand lectures (source: rmp_Peter Dobbins.txt, chunk 12). They also mention that lectures aren't very useful, so reading the textbook is necessary (source: rmp_Peter Dobbins.txt, chunk 11). Additionally, some students note that Dobbins seems to enjoy teaching, but struggles to get concepts across to students (source: rmp_Peter Dobbins.txt, chunk 12). However, others believe that Dobbins' teaching style is due to his "extreme erudition" on the subject, and that revising with lecture recordings and the textbook is invaluable (source: rmp_Peter Dobbins.txt, chunk 18).
+>
+> **Retrieved from:**
+> • rmp_Peter Dobbins.txt
+> • rmp_Prabhat Mishra.txt
+> • rmp_Tamer Kahveci.txt
+
+**Example response with source attribution (Kahveci):**
+
+> Students say that Dr. Tamer Kahveci's lectures are excellent (source: rmp_Tamer Kahveci.txt, chunk 0) and that they are well-explained and directly translate to what is being tested on (source: rmp_Tamer Kahveci.txt, chunk 11). They also mention that going over his lectures before exams and redoing the examples he does can help prepare for the exams (source: rmp_Tamer Kahveci.txt, chunk 11).
+
+**Out-of-scope refusal example:**
+
+> **User:** What is the best pizza place in Gainesville?
+>
+> **System Answer:** I don't have enough information in the provided documents to answer that.
+>
+> **Retrieved from:**
+> • reddit_best_professors.txt
 
 ---
 
