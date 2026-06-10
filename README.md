@@ -5,6 +5,10 @@
 > Do not write placeholder text — if a section isn't done yet, leave it blank and come back.
 > Every section below is required for submission. One-liners will not receive full credit.
 
+## Demo Video
+
+[Watch the 3-minute project demo on Loom](https://www.loom.com/share/60172527fa774e54ae3cc29bd7d01015)
+
 ---
 
 ## Domain
