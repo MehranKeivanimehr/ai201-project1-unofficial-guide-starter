@@ -76,6 +76,9 @@ def clean_document(text, filename):
         r"^Comment deleted by user$",
         r"^Continue this thread$",
         r"^\w+\.(com|net|org)$",  # bare URLs like squarespace.com
+        # Reddit usernames: CamelCase OR contains numbers/underscores
+        r"^[A-Z][a-z]+[A-Z][a-zA-Z0-9_]*$",  # CamelCase usernames like BreakingBadgauss
+        r"^[A-Za-z0-9_]*[0-9_]+[A-Za-z0-9_]*$",  # usernames with numbers or underscores
     ]
 
     for line in lines:
