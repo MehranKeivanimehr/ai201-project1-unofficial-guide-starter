@@ -93,3 +93,32 @@ I will prompt Claude with my Retrieval Approach section (`all-MiniLM-L6-v2`, top
 
 **Milestone 5 — Generation and interface:**
 I will prompt Claude with my Retrieval Approach, the Groq API key setup from `.env`, and a sample retrieved context block, and ask it to implement `generate_answer()` that calls the Groq API with a grounded system prompt. I expect it to produce a function that formats retrieved chunks as context, constructs a system prompt forbidding hallucination, and returns a cited response. I will verify by running one of my evaluation questions and checking that the response uses only the provided context and cites sources.
+
+---
+
+## Stretch Features
+
+### Hybrid Search (Semantic + BM25)
+
+**Approach:** Combine ChromaDB cosine similarity with BM25 keyword ranking via Reciprocal Rank Fusion (RRF). For each query, retrieve top-k from both semantic and BM25, then fuse scores with `score = Σ 1/(60 + rank)` across both result sets.
+
+**Why:** Our documented failure case — the Boucher query ("warn against taking") — failed because semantic search couldn't connect that phrasing to "Remember, no Christina Boucher." BM25 catches exact word matches even when embeddings miss the connection.
+
+**Implementation:** Added `rank-bm25==0.2.2`, built `BM25Okapi` index from tokenized chunk corpus, implemented `HybridSearcher` class with `hybrid_search()` method, added Gradio checkbox to toggle hybrid mode.
+
+**Expected improvement:** Boucher query should retrieve the correct Reddit chunk in top-5 due to keyword matching on "Boucher." Other queries should maintain or improve ranking.
+
+### Chunking Strategy Comparison
+
+**Second strategy tested:** 1000-character chunks with 200-character overlap (vs. original 600/150).
+
+**Why:** Larger chunks capture more complete Reddit dialogues and multi-sentence reviews, potentially improving retrieval for broad questions. However, they risk merging unrelated reviews and diluting embeddings.
+
+**Implementation:** Added `--chunk-size` and `--overlap` CLI args to `pipeline.py`, generated `chunks_1000_200.json` (93 chunks), built second ChromaDB collection `uf_professors_1000`, ran same 5 evaluation queries against both.
+
+**Results:**
+- **1000/200 wins:** Dobbins teaching style (all top-3 are Dobbins vs. 2/3 for 600/150) and Kahveci lectures (all top-3 are Kahveci vs. 2/3)
+- **600/150 wins:** Boucher query (Reddit warning ranked #1 vs. #2 for 1000/200) and slightly better distance scores overall
+- **Tie:** Mishra personality and Dobbins self-teaching course
+
+**Conclusion:** 1000/200 is better for broad professor-overviews where multiple reviews need to be combined. 600/150 is better for isolating specific sentiments (like a single Reddit warning) because smaller chunks reduce dilution from adjacent content.

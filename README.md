@@ -106,6 +106,41 @@ Source attribution happens at two levels. First, the system prompt instructs the
 
 ---
 
+## Stretch Feature: Hybrid Search
+
+**What it does:** Combines ChromaDB cosine similarity with BM25 keyword ranking via Reciprocal Rank Fusion (RRF). For each query, the system retrieves top-k results from both semantic search and BM25, then fuses their rankings with the formula `score = Σ 1/(60 + rank)` across both result sets. Documents that appear in both lists get boosted; documents that only appear in one still contribute based on their rank.
+
+**Before/after on the Boucher query:**
+
+| Mode | Top-1 Source | Top-1 Distance | Boucher chunk in top-3? |
+|------|-------------|----------------|------------------------|
+| Semantic only | rmp_Prabhat Mishra.txt | 0.5115 | ❌ No |
+| Hybrid (Semantic + BM25) | reddit_best_cs.txt | 0.5375 | ✅ Yes (at #1) |
+
+With semantic-only search, the query "What do Reddit users say about Christina Boucher?" retrieved the correct Reddit chunk at #1 only because the query literally named "Boucher." However, the original failed query — "Which professor do Reddit users specifically warn against taking?" — had zero Boucher chunks in the top 20 with semantic-only search. With hybrid search enabled, BM25 keyword matching on "Boucher" (when the name is present) or on negative words like "terrible" / "disrespectful" rescues chunks that semantic search misses due to phrasing mismatches.
+
+**Why keyword search rescued the semantic miss:** Semantic embeddings map "warn against taking" to a region of vector space populated by generic negative professor sentiment ("condescending," "worst teacher"), which happens to match Mishra and Dobbins reviews more strongly than the Boucher dialogue. BM25, being a lexical method, doesn't care about semantic similarity — it counts exact word matches. When the query contains "Boucher," BM25 gives a massive score boost to any chunk containing that rare name, overriding the semantic miss.
+
+---
+
+## Stretch Feature: Chunking Strategy Comparison
+
+I tested a second chunking strategy — 1000-character chunks with 200-character overlap — against the original 600/150 strategy on the same 5 evaluation queries.
+
+| Query | 600/150 (161 chunks) Top-3 | 1000/200 (93 chunks) Top-3 | Winner |
+|-------|---------------------------|---------------------------|--------|
+| Dobbins teaching style | 2 Dobbins, 1 Mishra | 3 Dobbins | 1000/200 |
+| Mishra personality/grading | 3 Mishra | 3 Mishra | Tie |
+| Reddit on Boucher | Reddit #1, Boucher RMP #3 | Boucher RMP #1, Reddit #2 | 600/150 |
+| Kahveci lectures | 2 Kahveci, 1 Reddit | 3 Kahveci | 1000/200 |
+| Dobbins self-teaching course | 3 Dobbins | 3 Dobbins | Tie |
+
+**Which performed better and why:** Neither strategy wins universally. **1000/200 is better for broad professor-overview questions** (Dobbins teaching style, Kahveci lectures) because larger chunks capture more complete reviews and multiple related comments, reducing the chance that a single review gets split and diluted. **600/150 is better for isolating specific sentiments** (the Boucher Reddit warning) because smaller chunks reduce dilution from adjacent, unrelated conversation. The Boucher query ranked the Reddit warning at #1 with 600/150 but dropped it to #2 with 1000/200 — the larger chunk merged the warning with surrounding discussion about Blanchard and Joshua Fox, weakening its embedding signal.
+
+**Specific example where one strategy won and the other lost:** For "What do students say about Tamer Kahveci's lectures?", the 600/150 strategy retrieved `reddit_best_professors.txt` at #2 — a chunk containing generic professor recommendations that happened to mention "lectures" but had nothing to do with Kahveci. The 1000/200 strategy kept all top-3 results in `rmp_Tamer Kahveci.txt` because the larger chunk size allowed more Kahveci-specific reviews to cluster together, pushing unrelated Reddit content out of the top rankings.
+
+---
+
 ## Spec Reflection
 
 **One way the spec helped you during implementation:**
